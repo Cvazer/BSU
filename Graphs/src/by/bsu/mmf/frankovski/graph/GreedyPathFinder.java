@@ -16,6 +16,7 @@ public class GreedyPathFinder {
         getPath(graph.getNodes().get(0));
         viseted.forEach(node -> System.out.print(node.getName()+" -> "));
         System.out.println(viseted.get(0).getName());
+        viseted.clear();
     }
 
     public void getPath(Node node){
