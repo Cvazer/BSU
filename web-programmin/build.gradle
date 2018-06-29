@@ -1,0 +1,51 @@
+buildscript {
+    ext {
+        springBootVersion = '2.0.3.RELEASE'
+        springDependencyManagementVersion = '1.0.5.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath "io.spring.gradle:dependency-management-plugin:${springDependencyManagementVersion}"
+    }
+}
+
+plugins {
+    id 'net.ltgt.apt' version '0.10'
+    id 'java'
+    id "org.springframework.boot" version "2.0.3.RELEASE"
+    id 'io.spring.dependency-management' version  "1.0.5.RELEASE"
+    id 'war'
+}
+
+
+group 'by.bsu.frankovski'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter")
+    compile('org.springframework.boot:spring-boot-starter-aop')
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-devtools')
+    compile('com.h2database:h2')
+    compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '9.0.8'
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.11.3'
+    compile group: 'jstl', name: 'jstl', version: '1.2'
+    compileOnly('org.projectlombok:lombok')
+    compileOnly('org.springframework.boot:spring-boot-starter-tomcat')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    apt "org.projectlombok:lombok:1.18.0"
+}

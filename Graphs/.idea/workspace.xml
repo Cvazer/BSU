@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b185b820-95bf-45d1-9005-f1940bdb18bb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/by/bsu/mmf/frankovski/graph/FullSwitchPathFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/bsu/mmf/frankovski/graph/GreedyPathFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/bsu/mmf/frankovski/graph/GreedyPathFinder.java" afterDir="false" />
-    </list>
+    <list default="true" id="b185b820-95bf-45d1-9005-f1940bdb18bb" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -195,6 +192,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Homebrew/a-star-search" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -288,7 +286,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529910761745</updated>
-      <workItem from="1529910767284" duration="17089000" />
+      <workItem from="1529910767284" duration="17414000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1529926234992</created>
@@ -301,11 +299,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17089000" />
+    <option name="totallyTimeSpent" value="17414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.32972974" />
@@ -314,7 +311,7 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38918918" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38918918" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1609808" />
