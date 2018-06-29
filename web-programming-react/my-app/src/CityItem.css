@@ -1,0 +1,9 @@
+.cityItem{
+    font-size: 16pt;
+    padding: 8px;
+}
+
+.cityItem:hover{
+    color: #ff5656;
+    cursor: pointer;
+}

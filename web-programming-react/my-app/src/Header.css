@@ -1,0 +1,11 @@
+.header{
+    font-size: 22pt;
+    color: white;
+    background-color: black;
+    padding: 8px;
+    box-shadow: 2px 4px 6px rgba(0,0,0,0.4)
+}
+
+#content {
+
+}

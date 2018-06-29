@@ -1,0 +1,17 @@
+.countryItem:hover{
+    cursor: pointer;
+    background-color: #ff5656;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.countryItem{
+    font-size: 16pt;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

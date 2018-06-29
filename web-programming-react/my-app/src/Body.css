@@ -1,0 +1,47 @@
+#table {
+
+    max-height: 920px;
+    width: 100%;
+}
+
+.arrowContainer{
+    display: inline-block;
+
+}
+
+.arrowContainer:hover{
+    cursor: pointer;
+    color: #ff5656;
+}
+
+.arrow{
+    margin: 5px;
+}
+
+#centerContent{
+    height: 885px;
+}
+
+#nav{
+    text-align: center
+}
+
+#leftCol {
+    width: 100%;
+    overflow-y: scroll;
+    display: inline-block;
+    max-height: 915px;
+}
+
+#centerCol {
+
+    width: 33%;
+    text-align: center;
+}
+
+#rightCol {
+
+    width: 53%;
+    text-align: center;
+    font-size: 30pt;
+}
