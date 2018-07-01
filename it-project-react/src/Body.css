@@ -1,0 +1,33 @@
+table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+#leftCol{
+    width: 220px;
+}
+#centerCol{
+    min-width: 100px;
+    text-align: center;
+    box-shadow: 0 0 9px rgba(0,0,0,0.2)
+}
+#rightCol{
+    width: 220px;
+}
+
+#filters{
+    color: white;
+    background: linear-gradient(to bottom, #99000d 0%, rgba(173, 0, 1, 0.84) 100%);
+    text-align: center;
+}
+
+.cat{
+    display: inline-block;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.cat:hover{
+    cursor: pointer;
+    background-color: #660009;
+}

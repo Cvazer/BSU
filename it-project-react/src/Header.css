@@ -1,0 +1,55 @@
+.header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18pt;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.navItem{
+    display: inline-block;
+    margin-right: 2%;
+    /*transform: translateX(-130px);*/
+}
+
+#logo{
+    display:inline-block;
+    float: left;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 41, 85);
+}
+
+#loginBtn:hover{
+    cursor: pointer;
+    color: rgb(255, 41, 85);
+}
+
+#loginBtn{
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+}
+
+#logoutBtn:hover{
+    cursor: pointer;
+    color: rgb(255, 41, 85);
+}
+
+#logoutBtn{
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+}
+
+#userId{
+    display: inline-block;
+    margin-right: 10px;
+}

@@ -1,0 +1,79 @@
+table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+#leftCol{
+    width: 220px;
+}
+#centerCol{
+    min-width: 100px;
+    text-align: center;
+    box-shadow: 0 0 9px rgba(0,0,0,0.2);
+    padding: 0;
+
+}
+#rightCol{
+    width: 220px;
+}
+
+#filters{
+    color: white;
+    background: linear-gradient(to bottom, #99000d 0%, rgba(173, 0, 1, 0.84) 100%);
+    text-align: center;
+}
+
+#eventImg{
+    display: inline-block;
+    float: left;
+}
+
+#title{
+    font-size: 28pt;
+    padding-top: 80px;
+}
+
+.tag{
+    font-size: 11pt;
+    color: #898989;
+    display: inline-block;
+    border: 1px solid #d6d6d6;
+    margin: 2px;
+    padding: 2px;
+}
+
+#tagsContainer{
+    margin-top: 20px;
+}
+
+#heldingsContainer{
+    display: inline-block;
+    width: 60%;
+    margin-top: 80px;
+}
+
+#heldingsTable{
+    box-shadow: 0 0 9px rgba(0,0,0,0.2);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    padding: 5px 5px 5px 10px;
+    font-size: 13pt;
+    text-align: left;
+}
+
+.tableRow:nth-child(even){background-color: #f2f2f2}
+
+
+#willAttendBtn{
+    background-color: #00C955;
+    color: white;
+    padding: 8px;
+}
+
+#willAttendBtn:hover{
+    cursor: pointer;
+    background-color: #00873c;
+}
